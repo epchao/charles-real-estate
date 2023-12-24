@@ -41,7 +41,7 @@ const Property = ({ property }) => {
           height="400"
           loading="lazy"
           allowFullScreen
-          src={`https://www.google.com/maps/embed/v1/place?key=AIzaSyB93CYxjQoC7SKIt8nHp_TANKxjR_flzEI&q=${property.address}`}
+          src={`https://www.google.com/maps/embed/v1/place?key=KEYINVALID&q=${property.address}`}
         ></iframe>
       </div>
       {property.category.slug == "active" && (
